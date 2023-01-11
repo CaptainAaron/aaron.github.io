@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'exar';
+    src: url('/assets/abc/Exar.woff2') format('woff2');
+}
+
+@media all and (min-width: 710px) {
+    /*desktop*/
+    
+    .warning{
+        color: rgb(255, 0, 0);
+        font-family: exar;
+        text-align: center;
+        font-size: 14px;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+}
+
+@media all and (max-width: 709.9px) {
+    /*phone*/
+
+    .warning{
+        color: rgb(255, 0, 0);
+        font-family: exar;
+        text-align: center;
+        font-size: 14px;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+}
+
+
+/**rgb(23, 23, 23)**/
+body {
+    background-color: #0B1121;
+    background-image: url("/assets/img/blueshine.jpg");
+    background-size: cover;
+    /**overflow: hidden;**/
+}
+
+.nav {
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0);
+    height: 7vh;
+    padding-right: 2vw;
+}
+
+.nav a {
+    display: flex;
+    float: right;
+    padding-top: 1.5vh;
+    padding-left: 20px;
+    user-select: none;
+    text-decoration: none;
+    font-family: exar;
+    font-weight: bold;
+    color: rgb(238, 238, 238);
+    font-size: 2vh;
+}
+
+.nav a:hover {
+    color: rgb(10, 182, 216);
+    transition: 0.3s;
+}
+
+
+.container {
+    display: flex;
+    background-size: cover;
+
+}
+
+.container h1 {
+    color: white;
+    font-family: exar;
+    display: flex;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+}
+
+/*cards*/
+
+.holder {
+    margin-top: 20vh;
+    user-select: none;
+
+}
+
+@media all and (min-width: 710px) {
+
+    /*desktop*/
+    .card1 {
+        width: 32vw;
+        margin-left: 18vw;
+        background-color: #121b33;
+        border-radius: 10px;
+        overflow: clip;
+        display: flex;
+    }
+
+    .card1 p {
+        color: white;
+        font-family: Arial;
+        font-style: italic;
+        display: flex;
+        float: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15px;
+        user-select: none;
+    }
+
+    .card1 img {
+        width: 22vh;
+        user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        object-fit: cover;
+        -moz-user-select: none;
+    }
+
+
+    .card2 {
+        width: 32vw;
+        margin-left: 5vw;
+        margin-right: 19.8vw;
+        margin-top: -10vh;
+        background-color: #121b33;
+        border-radius: 10px;
+        overflow: clip;
+        display: flex;
+        float: right;
+    }
+
+    .card2 p {
+        color: #7389c8;
+        font-family: exar;
+        display: flex;
+        float: left;
+        margin-top: 2vh;
+        margin-left: 15px;
+        user-select: none;
+    }
+
+    .card2 .head {
+        width: 22vh;
+        user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        object-fit: cover;
+        -moz-user-select: none;
+    }
+
+    .card2 .pl {
+        width: 4vh;
+        height: 4vh;
+        user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        object-fit: cover;
+        -moz-user-select: none;
+        display: flex;
+        padding-left: 1px;
+        margin-right: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+        float: left;
+    }
+
+    #JS {
+        margin-right: 50px;
+    }
+
+    .card2 .pl:hover {
+        opacity: 70%;
+        transition: 0.15s;
+    }
+}
+
+@media all and (max-width: 709.9px) {
+
+    /*phone*/
+    .card1 {
+        padding-top: 2.5vh;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #0f2133;
+        height: 40vh;
+        width: 85vw;
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .card1 p {
+        color: white;
+        font-family: exar;
+        padding-top: 4vh;
+        text-align: center;
+    }
+
+    .card1 img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10vh;
+        border-radius: 100px;
+        user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        object-fit: cover;
+        -moz-user-select: none;
+    }
+
+    .card2 {
+        padding-top: 2.5vh;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #121b33;
+        height: 40vh;
+        width: 85vw;
+        border-radius: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .card2 p {
+        color: white;
+        font-family: exar;
+        padding-top: 4vh;
+        text-align: center;
+    }
+
+    .card2 .head {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10vh;
+        border-radius: 100px;
+        user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        object-fit: cover;
+        -moz-user-select: none;
+    }
+
+    .card2 .pl {
+        display: flex;
+        width: 4.5vh;
+        user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        object-fit: cover;
+        -moz-user-select: none;
+        float: left;
+        margin-left: 10px;
+        padding-left: 1px;
+        margin-top: 55px;
+    }
+}
