@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'exar';
+    src: url('/assets/abc/Exar.woff2') format('woff2');
+}
+
+body{
+    background-color: rgb(15, 15, 34);
+    background-image: url("/assets/img/blueshine.jpg");
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #1b313d;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #636363;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    color: white;
+    font-family: exar;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+nav h1{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 5px;
+    font-size: 18px;
+    opacity: 70%;
+}
+nav h1:hover{
+    cursor: pointer;
+    color: rgb(119, 174, 255);
+    opacity: 100%;
+    transition: .2s;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    /* CSS rules specific to desktop devices */
+    
+
+    .c{
+        height: 60vh;
+        width: 95vw;
+    
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 22vh;
+        left: 2.5vw;
+    }
+    
+    .c .Left{
+        background-image: url("/assets/img/aaronswebpages.webp");
+        background-size:cover;
+        background-repeat:no-repeat;
+        width: 46vw;
+        height: 50vh;
+        margin-top: auto;
+        margin-bottom: auto;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+        overflow: clip;
+
+        border-radius: 15px;
+    }
+    .c .Left:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: .3s;
+    }
+
+    .c .Right{
+        background-image: url("/assets/img/gamedevaaron.webp");
+        background-size:cover;
+        background-repeat:no-repeat;
+        width: 46vw;
+        height: 50vh;
+        margin-top: auto;
+        margin-bottom: auto;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+        overflow: clip;
+
+        border-radius: 15px;
+    }
+
+    .c .Right:hover{
+        cursor: pointer;
+        background-image: url("/assets/img/devaarongif.gif");
+        transform: scale(1.05);
+        transition: .3s;
+    }
+
+    .desc{
+        background-color: rgba(0, 0, 0, 0.607);
+        height: 10vh;
+        margin-top: 40vh;
+
+        backdrop-filter: blur(2px);
+        
+    }
+
+    .desc h1{
+        color: rgb(199, 199, 199);
+        font-family: exar;
+        margin-left: 20px;
+        padding-top: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    /* CSS rules specific to phone devices */
+    
+
+
+
+  }

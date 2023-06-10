@@ -1,0 +1,53 @@
+#header{
+    color: rgb(77, 99, 121);
+    font-size: 25px;
+    font-family: exar;
+    text-align: center;
+}
+
+#postcontainer{
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+}
+
+.post{
+    display: flex;
+    background-color: rgb(26, 33, 39);
+    height: 30vh;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    overflow: clip;
+    margin-bottom: 20px;
+}
+
+.post .img{
+    height: 30vh;
+    width: 14vw;
+    user-select: none;
+    -webkit-user-select: none;
+    background-size: cover;
+}
+
+.post h2{
+    color: rgb(175, 175, 175);
+    font-family: exar;
+    padding-top: 10px;
+    margin-left: 2vw;
+}
+
+.post p{
+    margin-top: 20px;
+    margin-left: 2vw;
+    font-family: verdana;
+    color: rgb(135, 135, 135);
+}
+
+.post .postdiv{
+    max-width: 65vw;
+}
