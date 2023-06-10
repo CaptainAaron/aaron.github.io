@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "title": "Night Vision Goggles [NVG]",
+            "img": "/projects/projectimg/nvg.webp",
+            "description": "Night vision goggles in roblox, yes they work. They have an animation and a sound animation, with these you can see in the night. Everything scripted in this system has been thought about, you don't need to waste time trying to figure out how to give the user the NVG, you just use a simple function that i have included."
+        },
+        {
+            "title": "Custom Helmet Flag Patches",
+            "img": "/projects/projectimg/helmetflags.webp",
+            "description": "Yes that's right, i made in the past a huge variety of custom flag patches of several countries including special edition ones."
+        },
+        {
+            "title": "Humvee",
+            "img": "/projects/projectimg/humvee.webp",
+            "description": "One of my first projects in Roblox Studio was making a humvee with lights that could be turned on, headlights, brake lights, the radio sound could be turned on and the hatch on the roof could be opened, even the wipers worked"
+        },
+        {
+            "title": "Cuff System",
+            "img": "/projects/projectimg/cuffs.webp",
+            "description": "Time to put the criminals behind bars! With this system you can simply arrest criminals, this was easy to make and might be useful."
+        },
+        {
+            "title": "Flashbang system",
+            "img": "/projects/projectimg/flashbang.webp",
+            "description": "Throw and blind the enemy! People in a certain radius of where the flashbang explodes will be blinded if they look in the direction of it."
+        }
+    ]
+}
